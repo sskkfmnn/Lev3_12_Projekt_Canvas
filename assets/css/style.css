@@ -4,6 +4,7 @@
 #fff
  */
 
+
  *{
     box-sizing: border-box;
     margin: 0;
@@ -19,8 +20,15 @@
     src: url("../fonts/Roboto-Regular.ttf");
 }
 
+
+/* header */
+/* header */
+/* header */
+
+
 header{
     background-image: url("../img/titel-bild.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -35,3 +43,71 @@ header h1{
     color: white;
     font-family: "Open Sans";
 }
+
+
+/* main */
+/* main */
+/* main */
+
+
+main{
+    background-color: #f7f7f7;
+    width: 80vw;
+    margin: 0 auto;
+    font-family: "Roboto";
+}
+
+main article h2{
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 5vh;
+    font-size: 30px;
+}
+
+main article:nth-of-type(1) p{
+    text-align: center;
+    width: 55vw;
+    margin: 0 auto;
+}
+
+.Hangout{
+    padding-top: 5vh;
+    padding-bottom: 40vh;
+}
+
+.Hangout span{
+    color: cornflowerblue;
+}
+
+main section:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+}
+
+main section:nth-of-type(1) img{
+    width: 35vw;
+}
+
+main article:nth-of-type(2) p{
+    text-align: center;
+    width: 55vw;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+}
+
+main section:nth-of-type(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vh;
+    padding-bottom: 20vh;
+}
+
+main section:nth-of-type(2) img{
+    width: 35vw;
+}
+
+
+/* footer */
+/* footer */
+/* footer */
